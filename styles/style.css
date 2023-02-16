@@ -235,4 +235,18 @@ Sponsors Styles
 .sponsors-images {
     display: flex;
     justify-content: space-around;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}
+
+
+/* -------------
+FOoter styles
+----------------- */
+.footer {
+    margin-top: 50px;
+    color: #424242;
+    background-color: #FFF4E7;
+    border-radius: 8px;
+    text-align: center;
 }
