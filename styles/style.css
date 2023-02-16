@@ -128,3 +128,111 @@ Features Styles
     margin-bottom: 32px;
     line-height: 26px;
 }
+
+
+
+/* -------------------
+Experience Styles
+------------------*/
+.experience {
+    display: flex;
+    gap: 54px;
+    align-items: center;
+    position: relative;
+}
+
+.experience-title {
+    color: #131313;
+    padding-left: 21px;
+    border-left: 5px solid #FF900E;
+    margin-bottom: 24px;
+}
+
+.experience-info {
+    line-height: 26px;
+    color: #727272;
+    margin-bottom: 30px;
+}
+
+.experience-box {
+    padding: 30px 42px 30px 30px;
+    margin-bottom: 20px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+}
+
+.experience-box-title {
+    color: #131313;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.big-btn {
+    position: absolute;
+    align-self: center;
+    bottom: 0;
+    left: 43%;
+}
+
+.big-btn-text {
+    font-size: 65px;
+}
+
+
+
+/* -----------------
+Some Facts Styles
+-------------------- */
+
+
+.facts-description {
+    margin-bottom: 100px;
+    color: #727272;
+    padding-top: 24px;
+}
+
+.square-boxes {
+    display: flex;
+    justify-content: space-between;
+    gap: 120px;
+}
+
+.square-box {
+    width: 241px;
+    text-align: center;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    padding: 80px 50px;
+}
+
+.box-title {
+    color: #424242;
+    font-weight: 600;
+}
+
+.box-info {
+    font-size: 20px;
+    color: #727272;
+}
+
+
+/* -----------------------
+Sponsors Styles
+-------------------- */
+.sponsors {
+    text-align: center;
+}
+
+.sponsors-description {
+    padding-top: 24px;
+    color: #727272;
+    margin-bottom: 50px;
+}
+
+
+.sponsors-images {
+    display: flex;
+    justify-content: space-around;
+}
