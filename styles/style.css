@@ -12,3 +12,119 @@ Common Styles
     margin: 0;
     font-family: 'Work Sans', sans-serif;
 }
+
+.container {
+    width: 1440px;
+    padding: 50px 0;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 64px;
+}
+
+h2 {
+    font-size: 45px;
+
+}
+
+.primary-btn {
+    background-color: #FF900E;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    color: #FFFFFF;
+    padding: 20px 25px;
+    border-radius: 8px;
+}
+
+
+
+/* -------------------
+Header Styles
+-------------------- */
+header {
+    background-color: #FF900E1A;
+}
+
+.website-title {
+    color: #131313;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 55px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #424242;
+}
+
+.top-banner-info {
+    width: 868px;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.banner-title {
+    color: #131313;
+    margin-bottom: 25px;
+}
+
+.banner-discription {
+    color: #727272;
+    margin-bottom: 32px;
+}
+
+
+/* ----------------
+Features Styles
+------------------- */
+
+.features {
+    display: flex;
+    align-items: center;
+}
+
+.features-image {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.features-info {
+    margin-left: 71px;
+    width: 537px;
+}
+
+.feature-title {
+    line-height: 53px;
+    margin-bottom: 24px;
+}
+
+.quick-list {
+    color: #727272;
+    font-weight: 500;
+}
+
+.title-feature {
+    color: #FF900E;
+}
+
+.feature-description {
+    color: #727272;
+    margin-bottom: 32px;
+    line-height: 26px;
+}
