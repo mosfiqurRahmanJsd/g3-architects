@@ -206,6 +206,12 @@ Some Facts Styles
     border: 1px solid #FF900E;
     border-radius: 8px;
     padding: 80px 50px;
+    transition: all 0.2s ease;
+}
+
+.square-box:hover {
+    scale: 1.2;
+    box-shadow: 5px 5px 10px lightgray;
 }
 
 .box-title {
